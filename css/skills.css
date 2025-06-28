@@ -56,21 +56,39 @@ li a:hover:not(.active) {
 }
 
 .skill_card {
-    display: inline-block;
     background-color: darksalmon;
-    padding: 10px;
-
     border-radius:10px;
-    box-shadow:0 4px 10px #000;
     color: khaki;
-    padding:20px; text-align:center;
+    transform: scale(1);
+
+    font-size: 19px;
+    
+    padding: 15px;
+    width: 27%;
+    text-align: center;
+
+
+
+    transition: all 0.5s;
 }
 
 .skill_card:hover {
-    background-color: #000;
+    background-color: #7f7f7f;
+    transform: scale(1.1);
+    box-shadow:0 4px 10px #000;
+    transition: all 0.7s ;
 }
 
 
+.test
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: row;
+}
 
-
-
+p {
+    font-size: 0.8em;
+}
