@@ -1,8 +1,23 @@
-/*
-* {
-    background-color: green;
-} */
 
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libre-baskerville-bold {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+* {
+   font-family: Libre Baskerville;
+} 
 
 body {
     margin: 0;
@@ -22,7 +37,7 @@ ul {
 
 li a {
     display: block;
-    color: #b4ce1e;
+    color: #4f5337;
     padding: 8px 16px;
     text-decoration: none;
 }
@@ -33,12 +48,27 @@ li a:hover:not(.active) {
     padding: 100px;
 }
 
+
 .skills_section {
     margin-left:13%;
     padding:1px 16px;
     text-align: center;
 }
 
+.skill_card {
+    display: inline-block;
+    background-color: darksalmon;
+    padding: 10px;
+
+    border-radius:10px;
+    box-shadow:0 4px 10px #000;
+    color: khaki;
+    padding:20px; text-align:center;
+}
+
+.skill_card:hover {
+    background-color: #000;
+}
 
 
 
