@@ -1,0 +1,46 @@
+/*
+* {
+    background-color: green;
+} */
+
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 13%;
+    background-color: #127972;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+}
+
+li a {
+    display: block;
+    color: #b4ce1e;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover:not(.active) {
+    color: white;
+    padding: 100px;
+}
+
+.skills_section {
+    margin-left:13%;
+    padding:1px 16px;
+    text-align: center;
+}
+
+
+
+
+
+
