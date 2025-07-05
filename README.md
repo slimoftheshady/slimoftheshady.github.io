@@ -3,7 +3,7 @@
 
 
 ttd
-index to rice sim
-    -> terminal search?
+
+pb from am buisnss cd
 
 https://www.w3schools.com/tags/att_a_target.asp hmm
