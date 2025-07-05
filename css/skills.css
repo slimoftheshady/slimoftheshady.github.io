@@ -17,12 +17,13 @@
 
 * {
    font-family: Libre Baskerville;
-   color: #ffad0a;
+   color: #1e1e1e;
 } 
 
 body {
     margin: 0;
-    background-color: #faebd7;
+    background-color: #f9f6ee;
+    background-image: url(../img/body_skill_card.png);
 }
 
 ul {
@@ -34,21 +35,20 @@ ul {
     height: 100%;
     overflow: auto;
     text-align: center;
-    background-color: #faebd7;
-    border-right: 3px solid #e3d7c5;
+    background-color: #f9f6ee;
+    border-right: 3px solid #bbb9af;
+    background-image: url(../img/body_skill_card.png);
 }
 
 li a {
     display: block;
-    color: #4f5337;
-    padding: 8px 16px;
+    padding: 50px 16px;
     text-decoration: none;
 }
 
 
 li a:hover:not(.active) {
-    color: white;
-    padding: 100px;
+    color: #727272;
 }
 
 
@@ -59,7 +59,9 @@ li a:hover:not(.active) {
 }
 
 .skill_card {
-    background-color: #e3ceb1;
+    background-color: #e3dac9;
+    background-image: url(../img/skill_card.png);
+
     box-shadow:0 4px 10px #72695c;
     border-radius:10px;
     transform: scale(1);
@@ -68,14 +70,12 @@ li a:hover:not(.active) {
 
 
     font-size: 19px;
-    text-shadow: 
-        1px 1px 0.05px rgba(21, 21, 21, 0.5), -1px -1px 1px rgba(212, 166, 81, 0.8);
-
+    text-shadow: 1px 1px 80px #1e1e1e;
     transition: all 0.5s;
 }
 
 .skill_card:hover {
-    background-color: #e3ceb1;
+    background-color: #e3dac9;
     transform: scale(1.1);
     box-shadow:0 4px 10px #72695c;
     transition: all 0.7s ;
