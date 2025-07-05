@@ -1,3 +1,7 @@
+h1, h2, h3, h4, h5, h6, p { /* remove space created at top, can be changed */
+    margin-top: 0;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
 .libre-baskerville-regular {
@@ -23,3 +27,36 @@ body {
     background-color: #f9f6ee;
     background-image: url(../img/body_skill_card.png);
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 13%;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+    background-color: #f9f6ee;
+    border-right: 3px solid #bbb9af;
+    background-image: url(../img/body_skill_card.png);
+}
+
+li a {
+    display: block;
+    padding: 50px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover:not(.active) {
+    color: #727272;
+}
+
+
+.main-information {
+    margin-left:13%;
+    text-align: left;
+    padding-left: 5em;
+}
+
