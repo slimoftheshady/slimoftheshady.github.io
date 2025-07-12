@@ -2,8 +2,17 @@
   flex-direction: row;
   gap: 10%;
   padding-left: 16%;
+
 }
 
 #images {
     width: 15%;
+    transform: scale(1);
+    transition: all 0.5s ;
+}
+
+
+#images:hover {
+    transform: scale(1.5);
+    transition: all 0.5s ;
 }
